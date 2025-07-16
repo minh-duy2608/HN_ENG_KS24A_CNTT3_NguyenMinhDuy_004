@@ -51,7 +51,7 @@ void displayFood() {
     }
     printf("Danh sach mon dang ban:\n");
     while (current) {
-        printf("ID: %d | Ten: %s | Danh muc: %s | Gia: %.2f\n",
+        printf("ID: %d, Ten: %s, Danh muc: %s, Gia: %.2f\n",
                current->data.id, current->data.name, current->data.category, current->data.price);
                     current = current->next;
     }
@@ -116,7 +116,7 @@ void displayStoppedFood() {
     }
     printf("Danh sach mon da ngung ban:\n");
     while (current) {
-        printf("ID: %d | Ten: %s | Danh muc: %s | Gia: %.2f\n",
+        printf("ID: %d, Ten: %s, Danh muc: %s, Gia: %.2f\n",
                current->data.id, current->data.name, current->data.category, current->data.price);
                     current = current->next;
     }
